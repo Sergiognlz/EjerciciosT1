@@ -14,6 +14,10 @@ public static void main(String[] args) {
 	System.out.println("Introduce un número");
 	//Leemos el número introducido
 	numero1 = sc.nextInt();
+	System.out.println("Hay que sumar "+ (numero1%7) + " a " + numero1 + " para que sea múltiplo de 7");
+	
+	//cerramos escaner
+	sc.close();
 	
 }
 }
