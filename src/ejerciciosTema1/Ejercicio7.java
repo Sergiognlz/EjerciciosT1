@@ -12,7 +12,9 @@ public static void main(String[] args) {
 	int m;
 	//creo variable distancia total
 	double distanciaTotal;
-	
+	//creo constantes
+	final int diez= 10;
+	final int cien=100;
 	//creo escaner
 	Scanner sc=new Scanner(System.in);
 	
@@ -29,7 +31,7 @@ public static void main(String[] args) {
 	//leemos los m
 	m=sc.nextInt();
 	
-	distanciaTotal=cm+(mm/10)+(m*100);
+	distanciaTotal=cm+(mm/diez)+(m*cien);
 	//mostramos la suma de las medias en cm
 	System.out.println("La distancia total es: " + distanciaTotal + " centímetros");
 	
