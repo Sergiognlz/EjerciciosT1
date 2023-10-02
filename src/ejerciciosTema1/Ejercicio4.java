@@ -10,7 +10,7 @@ public class Ejercicio4 {
 		//Declaramos la variable altura
 		float altura;
 		//creamos constante 2
-		final int dos=2;
+		final int DOS=2;
 		//Creamos escaner
 		Scanner sc=new Scanner(System.in);
 		//Pedimos la base
@@ -22,7 +22,7 @@ public class Ejercicio4 {
 		//leemos el número
 		altura=sc.nextFloat();
 		//Declaramos la variable área
-		float area = ((base*altura)/dos);
+		float area = ((base*altura)/DOS);
 		//Mostramos le área del triángulo
 		System.out.println("El área del triángulo es " + area);
 		//Cerramos escaner.

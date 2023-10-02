@@ -12,14 +12,14 @@ public static void main(String[] args) {
 	//creamos la localización
 	sc.useLocale(Locale.US);
 	//creamos constantes
-	final float cien=100;
+	final float CIEN=100;
 	
 	//Pedimos al usuario la longitud
 	System.out.println("Introduce la longitud de lanzamiento en metros");
 	//leemos el número introducido
 	longitud=sc.nextFloat();
 	//declaramos variable 
-	float resultado=(longitud*cien);
+	float resultado=(longitud*CIEN);
 	//mostramos por consola el cambio de unidad de metros a centímetros y casteamos a tipo int.
 	System.out.println("El resultado es: " + (int)resultado + " cm.");
 	//cerramos escanner

@@ -9,7 +9,7 @@ public class Ejercicio3 {
 		int numero2;
 		int resto;
 		//creamos la constante 0
-		final int cero=0;
+		final int CERO=0;
 		//Creamos el escaner
 		Scanner sc=new Scanner(System.in);
 		//Pedimos el número al usuario 
@@ -22,7 +22,7 @@ public class Ejercicio3 {
 		numero2 = sc.nextInt();
 		//Declaramos resto
 		resto= (numero1%numero2);
-		System.out.println("Hay que sumar "+ (resto==cero ? cero:numero2-resto )+ " a " + numero1 + " para que sea múltiplo de 7");
+		System.out.println("Hay que sumar "+ (resto==CERO ? CERO:numero2-resto )+ " a " + numero1 + " para que sea múltiplo de 7");
 		//cerramos escaner
 		sc.close();
 		

@@ -9,8 +9,8 @@ public static void main(String[] args) {
 	//creamos variable del resto
 	int resto;
 	//creamos constantes
-	final int cero=0;
-	final int siete=7;
+	final int CERO=0;
+	final int SIETE=7;
 	//Creamos el escaner
 	Scanner sc=new Scanner(System.in);
 	
@@ -19,7 +19,7 @@ public static void main(String[] args) {
 	//Leemos el número introducido
 	numero1 = sc.nextInt();
 	resto= (numero1%7);
-	System.out.println("Hay que sumar "+ (resto==cero ? cero:siete-resto )+ " a " + numero1 + " para que sea múltiplo de 7");
+	System.out.println("Hay que sumar "+ (resto==CERO ? CERO:SIETE-resto )+ " a " + numero1 + " para que sea múltiplo de 7");
 	
 	//cerramos escaner
 	sc.close();

@@ -9,10 +9,10 @@ public class Ejercicio8 {
 		//declaramos variable para la entrada de los niños
 		int nEntradaInfantil;
 		//declaramos constantes de la entrada de los adultos y los niños
-		final float entradaAdulto=20;
-		final float entradaInfantil=15.50f;
-		final int cien=100;
-		final float cerocomacerocinco=0.05f;
+		final float ENTRADA_ADULTO=20;
+		final float ENTRADA_INFANTIL=15.50f;
+		final int CIEN=100;
+		final float CERO_COMA_CERO_CINCO=0.05f;
 		//creamos escaner
 		Scanner sc=new Scanner(System.in);
 		
@@ -25,11 +25,11 @@ public class Ejercicio8 {
 		//leemos el número
 		nEntradaInfantil=sc.nextInt();
 		//creamos la variable precio total
-		float precioTotal=(nEntradaAdulto*entradaAdulto)+(nEntradaInfantil*entradaInfantil);
+		float precioTotal=(nEntradaAdulto*ENTRADA_ADULTO)+(nEntradaInfantil*ENTRADA_INFANTIL);
 		//Creamos una ternaria y lo aplicamos al computo total en euros
 		System.out.println("El precio total de " + nEntradaAdulto + " entradas de adulto "
 				+ "y " + nEntradaInfantil + " entradas de niño son " + 
-				(precioTotal<cien ? precioTotal:precioTotal-(precioTotal*cerocomacerocinco))+" euros en total.");
+				(precioTotal<CIEN ? precioTotal:precioTotal-(precioTotal*CERO_COMA_CERO_CINCO))+" euros en total.");
 		//cerramos el escaner
 		sc.close();
 		

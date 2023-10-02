@@ -9,7 +9,7 @@ public static void main(String[] args) {
 	//Declaramos variables
 	double a,b,c,x,y;
 	//creo constantes
-	final int dos=2;
+	final int DOS=2;
 	//Pedimos el valor a
 	System.out.println("Introduce el valor a");
 	//leemos el valor a
@@ -27,7 +27,7 @@ public static void main(String[] args) {
 	//leemos el valor x
 	x=sc.nextDouble();
 	//Una vez tenemos todos los valores declaramos la variable y
-	y=(a*x*dos)+(b*x)+c;
+	y=(a*x*DOS)+(b*x)+c;
 	//mostramos el resultado del polinomio
 	System.out.println("Partiendo del polinomio y=ax2+bx+c el valor y corresponde a: " + y);
 	//cerramos escaner
